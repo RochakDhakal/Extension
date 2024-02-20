@@ -1,0 +1,44 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(36, 36, 36);
+  height: 27rem;
+  width: 22rem;
+}
+ul > li {
+  list-style: none;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+.aiResp > ul > li {
+  display: block;
+  background-color: burlywood;
+  float: left;
+  margin: 0.15em;
+  padding: 0.5em;
+  border-radius: 0.75rem;
+}
+.userResp > ul > li {
+  display: block;
+  background-color: aquamarine;
+  float: right;
+  margin: 0.15em;
+  padding: 0.5em;
+  border-radius: 0.75rem;
+}
+.inpContainer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+.blurBg {
+    background-color: chocolate;
+    width: 100%;
+}
